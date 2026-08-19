@@ -1,0 +1,242 @@
+{
+  "type": "FeatureCollection",
+  "name": "Puri Coastal Study Area",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "study_area_id": "puri_odisha_in",
+    "title": "Puri Coastal Monitoring Sector",
+    "region": "Odisha, Bay of Bengal, India",
+    "dataset_classification": "DEMONSTRATION DATASET",
+    "reference_crs": "EPSG:4326",
+    "projected_crs": "EPSG:32645 (UTM Zone 45N)",
+    "bounding_box": [
+      85.77,
+      19.75,
+      85.95,
+      19.86
+    ],
+    "center": [
+      19.805,
+      85.845
+    ],
+    "default_zoom": 12,
+    "historical_periods": [
+      "2016",
+      "2018",
+      "2020",
+      "2022",
+      "2024",
+      "2026"
+    ],
+    "baseline_period": "2016",
+    "latest_period": "2026",
+    "num_monitoring_zones": 5
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ZONE-A",
+      "properties": {
+        "zone_id": "ZONE-A",
+        "zone_name": "Balukhand Sanctuary Beach",
+        "coastal_type": "Sandy Dune & Casuarina Forest",
+        "vulnerability_profile": "High Wave Exposure & Cyclone Scour",
+        "critical_infrastructure": "Eco-Retreat & Coastal Highway",
+        "transect_count": 24,
+        "length_km": 4.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.88,
+              19.825
+            ],
+            [
+              85.935,
+              19.855
+            ],
+            [
+              85.945,
+              19.835
+            ],
+            [
+              85.89,
+              19.808
+            ],
+            [
+              85.88,
+              19.825
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ZONE-B",
+      "properties": {
+        "zone_id": "ZONE-B",
+        "zone_name": "Puri Main / Golden Beach",
+        "coastal_type": "High-Density Urban Beach",
+        "vulnerability_profile": "Tourism Pressure & Seasonal Beach Narrowing",
+        "critical_infrastructure": "Marine Drive Promenade & Hotels",
+        "transect_count": 20,
+        "length_km": 3.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.83,
+              19.795
+            ],
+            [
+              85.88,
+              19.825
+            ],
+            [
+              85.89,
+              19.808
+            ],
+            [
+              85.84,
+              19.78
+            ],
+            [
+              85.83,
+              19.795
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ZONE-C",
+      "properties": {
+        "zone_id": "ZONE-C",
+        "zone_name": "Swargadwar & Lighthouse Sector",
+        "coastal_type": "Dense Settlement & Seawall Fringe",
+        "vulnerability_profile": "Active High Erosion & Structural Undermining",
+        "critical_infrastructure": "Lighthouse & Heritage Settlements",
+        "transect_count": 18,
+        "length_km": 2.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.8,
+              19.78
+            ],
+            [
+              85.83,
+              19.795
+            ],
+            [
+              85.84,
+              19.78
+            ],
+            [
+              85.81,
+              19.763
+            ],
+            [
+              85.8,
+              19.78
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ZONE-D",
+      "properties": {
+        "zone_id": "ZONE-D",
+        "zone_name": "Sipasarubali Mangrove & Estuary",
+        "coastal_type": "Tidal Inlet & Brackish Wetland",
+        "vulnerability_profile": "Tidal Inundation & Channel Migration",
+        "critical_infrastructure": "Aquaculture & Fishing Hamlet",
+        "transect_count": 22,
+        "length_km": 4.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.765,
+              19.76
+            ],
+            [
+              85.8,
+              19.78
+            ],
+            [
+              85.81,
+              19.763
+            ],
+            [
+              85.775,
+              19.742
+            ],
+            [
+              85.765,
+              19.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ZONE-E",
+      "properties": {
+        "zone_id": "ZONE-E",
+        "zone_name": "Mangala River Mouth & Barrier Spit",
+        "coastal_type": "Dynamic Sand Spit & Barrier Bar",
+        "vulnerability_profile": "Sediment Accretion & Breaching Cycles",
+        "critical_infrastructure": "Fisheries Landing & Buffer Lagoon",
+        "transect_count": 16,
+        "length_km": 3.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.845,
+              19.805
+            ],
+            [
+              85.875,
+              19.82
+            ],
+            [
+              85.885,
+              19.802
+            ],
+            [
+              85.855,
+              19.787
+            ],
+            [
+              85.845,
+              19.805
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

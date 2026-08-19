@@ -1,0 +1,61 @@
+{
+  "dataset_classification": "DEMONSTRATION DATASET",
+  "baseline_year": 2016,
+  "monitoring_zones": {
+    "ZONE-A": {
+      "zone_id": "ZONE-A",
+      "zone_name": "Balukhand Sanctuary Beach",
+      "shoreline_change_rate_m_per_yr": -3.85,
+      "net_shoreline_shift_m": -38.5,
+      "vegetation_loss_pct": 22.4,
+      "land_water_transition_ha": 14.8,
+      "historical_erosion_trend": 0.82,
+      "wave_energy_exposure": "High",
+      "coastal_slope_deg": 3.2
+    },
+    "ZONE-B": {
+      "zone_id": "ZONE-B",
+      "zone_name": "Puri Main / Golden Beach",
+      "shoreline_change_rate_m_per_yr": -1.65,
+      "net_shoreline_shift_m": -16.5,
+      "vegetation_loss_pct": 8.1,
+      "land_water_transition_ha": 5.2,
+      "historical_erosion_trend": 0.44,
+      "wave_energy_exposure": "Moderate",
+      "coastal_slope_deg": 4.5
+    },
+    "ZONE-C": {
+      "zone_id": "ZONE-C",
+      "zone_name": "Swargadwar & Lighthouse Sector",
+      "shoreline_change_rate_m_per_yr": -5.6,
+      "net_shoreline_shift_m": -56.0,
+      "vegetation_loss_pct": 31.5,
+      "land_water_transition_ha": 21.4,
+      "historical_erosion_trend": 0.94,
+      "wave_energy_exposure": "Very High",
+      "coastal_slope_deg": 2.8
+    },
+    "ZONE-D": {
+      "zone_id": "ZONE-D",
+      "zone_name": "Sipasarubali Mangrove & Estuary",
+      "shoreline_change_rate_m_per_yr": -2.45,
+      "net_shoreline_shift_m": -24.5,
+      "vegetation_loss_pct": 14.2,
+      "land_water_transition_ha": 9.6,
+      "historical_erosion_trend": 0.58,
+      "wave_energy_exposure": "Moderate",
+      "coastal_slope_deg": 3.8
+    },
+    "ZONE-E": {
+      "zone_id": "ZONE-E",
+      "zone_name": "Mangala River Mouth & Barrier Spit",
+      "shoreline_change_rate_m_per_yr": 1.8,
+      "net_shoreline_shift_m": 18.0,
+      "vegetation_loss_pct": 4.5,
+      "land_water_transition_ha": 3.1,
+      "historical_erosion_trend": 0.25,
+      "wave_energy_exposure": "Variable / Sheltered",
+      "coastal_slope_deg": 5.1
+    }
+  }
+}

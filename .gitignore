@@ -45,11 +45,17 @@ data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
+# Keep generated demo dataset in Git
 data/demo/*
+!data/demo/
 !data/demo/.gitkeep
+!data/demo/*.geojson
+!data/demo/*.json
 *.tif
 *.tiff
 *.nc
 *.hdf
 *.zip
 *.tar.gz
+# Local backup of previous frontend
+frontend-backup
